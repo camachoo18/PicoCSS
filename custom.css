@@ -1,0 +1,10 @@
+:root {
+    --primary: #e53935;
+  }
+  
+  .contador{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: center;
+  }

@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Picocss</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <link rel="stylesheet" href="custom.css">
+</head>
+<body>
+    <nav class="container-fluid">
+        <ul>
+          <li><strong>Brand</strong></li>
+        </ul>
+        <ul>
+          <li><a href="#">Link</a></li>
+          <li><a href="#">Link</a></li>
+          <li><a href="#" role="button">Button</a></li>
+        </ul>
+      </nav>
+    <section class="container">
+    <h1>hola mundo</h1>
+    <div class="grid">
+<button class ="secondary">click</button>
+<button class ="contrast">click</button>
+<button class="outline">click</button>
+<button disabled>click</button>
+<input aria-invalid="true"></input>
+<input aria-invalid="false"></input>
+    </div>
+    <ol>
+        <li>1.item</li>
+        <li>2.item</li>
+        <li>3.item</li>
+        <li>4.item</li>
+    </ol>
+    <ul>
+        <li>item 1</li>
+        <li>item 2</li>
+        <li>item 3</li>
+        <li>item 4</li>
+    </ul>
+    <article data-theme="light">
+        <h1>hola mundo</h1>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Et sapiente facilis ex consectetur inventore iste distinctio quisquam a quas assumenda fugit itaque quibusdam excepturi, asperiores eius accusantium, animi, in veniam!</p>
+    </article>
+
+    <input type="range" max="100" min="0" value="0" oninput="update()" id="range">
+    <progress min="0" max="100" value="50" id="progressbar"></progress>
+</section>
+<script src="script.js"></script>
+</body>
+</html>
